@@ -14,19 +14,19 @@ This is a single page application which is an expense tracker that will make vie
 
 The application has a form to receive user expense data, the form takes on 3 inputs, which are the expense title, amount and date(between year 2019 - 2022).
 
-![Form](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/item.png?raw=true)
+![Form](https://github.com/Eniola-Codes/Expense-Tracker-App/blob/main/src/assets/expenseform.png?raw=true)
 
 When a user submits a form, the data is added to the list of expenses.
 
-![expense item](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/item.png?raw=true)
+![expense item](https://github.com/Eniola-Codes/Expense-Tracker-App/blob/main/src/assets/expenseitem.png?raw=true)
 
 The list of expenses can then be filtered by year, the user is allowed to filter expenses between the year 2019 - 2022.
 
-![year filter](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/button.png?raw=true)
+![year filter](https://github.com/Eniola-Codes/Expense-Tracker-App/blob/main/src/assets/yearfilter.png?raw=true)
 
 I then created a chart system that calculates the total amount of expenses then split them across the different months in the chart, i use css styles to add a fill color to the container of each month based on their relative amount compared to the total amount.
 
-![Chart](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/cartitems.png?raw=true)
+![Chart](https://github.com/Eniola-Codes/Expense-Tracker-App/blob/main/src/assets/chart.png?raw=true)
 
 **Technologies**
 
