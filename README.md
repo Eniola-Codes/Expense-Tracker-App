@@ -1,74 +1,45 @@
-# End Result
+# A Expense tracker application
 
-https://expensetracker-by-eniola.netlify.app/
+A Expense tracker application that will make you view, understand and manage your expenses easier.
 
-# Getting Started with Create React App
+**End Result**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click the link : https://expensetracker-by-eniola.netlify.app/
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+**Details**
 
-### `npm start`
+This is a single page application which is an expense tracker that will make viewing, understanding and managing your expenses easier.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application has a form to receive user expense data, the form takes on 3 inputs, which are the expense title, amount and date(between year 2019 - 2022).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Form](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/item.png?raw=true)
 
-### `npm test`
+When a user submits a form, the data is added to the list of expenses.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![expense item](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/item.png?raw=true)
 
-### `npm run build`
+The list of expenses can then be filtered by year, the user is allowed to filter expenses between the year 2019 - 2022.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![year filter](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/button.png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I then created a chart system that calculates the total amount of expenses then split them across the different months in the chart, i use css styles to add a fill color to the container of each month based on their relative amount compared to the total amount.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Chart](https://github.com/Eniola-Codes/Food-Order-App/blob/main/src/components/assets/cartitems.png?raw=true)
 
-### `npm run eject`
+**Technologies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies i used to build this are React.js and Css
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I used React.js framework to bootstrap this project because of the functionalities below : 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Props to pass some data from component to component with ease.
+- Seperation of concerns so i can have leaner components and easily readable code.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Installation and Running
 
-## Learn More
+git clone or pull the project in your terminal, open the project folder on your local laptop in a code editor and run "npm start" in your editors terminal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
